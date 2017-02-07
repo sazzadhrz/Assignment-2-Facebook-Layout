@@ -1,0 +1,289 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	/*border: 2px solid red;*/
+}
+
+.header{
+	background-color: #4867AA;
+	height: 80px;
+}
+
+.header img{
+	height: 70px;
+	width: auto;
+	margin-left: 160px;
+	margin-top: 10px;
+}
+
+form{
+	display: inline-block;
+	float: right;
+	margin-right: 80px;
+}
+
+label{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.username input{
+	width: 140px;
+	height: 16px;
+	margin-top: 4px;
+}
+
+.pass input{
+	width: 140px;
+	height: 16px;
+	margin-top: 4px;
+}
+
+.username{
+	float: left;
+	margin-top: 12px;
+	color: white;
+}
+
+.pass{
+	float: left;
+	margin-top: 12px;
+	margin-left: 10px;
+	color: white;
+}
+
+.pass p{
+	margin-top: 3px;
+	color: #9CABC6;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+	float: left;
+	margin-top: 36px;
+	margin-left: 10px;
+	margin-right: 100px;
+
+}
+
+#btn{
+	width: 50px;
+	height: 20px;
+	color: white;
+	background-color: #4267B2;
+	/*background-color: #3B5998;*/
+	border: 1px solid #29487D;
+	cursor: pointer;
+	font-family: Helvetica;
+	font-size: 12px;
+}
+
+#btn:hover{
+	background-color: #3B5998;
+}
+
+.slider{
+	/*border: 2px solid red;*/
+	height: 700px;
+	width: auto;
+	background: linear-gradient(#FDFDFE, #D4D9E9);
+}
+
+.ls{
+	float: left;
+	margin-left: 170px;
+	/*border: 2px solid red;*/
+	padding-top: 10px;
+}
+
+.ls h4{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	line-height: 0px;
+	color: #0E385F;
+	margin-top: 35px;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.ls img{
+	height: 185px;
+	width: auto;
+	margin-left: 0;
+	padding-left: 15px;
+}
+
+.rs{
+	/*border: 2px solid red;*/
+	display: inline-block;
+	margin-left: 79px;
+	padding-left: 10px;
+	height: 600px;
+}
+
+.rs h1{
+	font-size: 35px;
+	/*border: 2px solid;*/
+	font-family: Arial;
+	color: #333333;
+	margin-bottom: 10px;
+}
+
+.rs h5{
+	font-size: 19px;
+	/*border: 2px solid;*/
+	font-family: Arial;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 22px;
+	color: #333333;
+}
+
+.fn{
+	width: 180px;
+	height: 35px;
+	font-size: large;
+	margin-right: 6px; 
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+
+.ln{
+	width: 180px;
+	height: 35px;
+	font-size: large;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+
+.mne{
+	width: 380px;
+	height: 35px;
+	font-size: large;
+	margin: 10px 0px;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+
+.re{
+	width: 380px;
+	height: 35px;
+	font-size: large;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+
+.np{
+	width: 380px;
+	height: 35px;
+	font-size: large;
+	margin: 10px 0;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+
+.birth{
+	font-size: 19px;
+	margin-bottom: 8px;
+	font-family: Arial;
+	color: #1D2129;
+}
+
+#slct{
+	height: 28px;
+	width: 60px;
+	padding-left: 5px;
+}
+
+.slct{
+	height: 28px;
+	width: 70px;
+	padding-left: 5px;
+}
+
+.bd{
+	float: right;
+	font-size: 11px;
+	margin-top: 0;
+	padding-top: 0;
+	margin-left: 0px;
+	width: 150px; 
+	margin-right: 25px;
+	font-family: Arial; 
+	color: #36589B;
+}
+
+.bd:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.lbl{
+	color: #1D2129;
+	font-family: Arial;
+	font-size: 19px;
+}
+
+.plc{
+	width: 320px;
+	font-size: 11px;
+	font-family: Arial;
+	color: #777A82;
+	margin-top: 13px;
+	line-height: 13px; 
+	margin-bottom: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: #36589B;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.cbtn{
+	background: linear-gradient(#66AC54, #578943);
+	height: 40px;
+	width: 200px;
+	border: .5px solid #2C5115;
+	border-radius: 4px;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: Verdana;
+	padding-bottom: 5px;
+	margin-top: 0;
+	cursor: pointer;
+}
+
+.cbtn:hover{
+	background: linear-gradient(#73B95F, #578843)
+}
+
+.new{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 13px;
+	color: #666666;
+	margin-top: 40px;
+}
+
+/*Forgotten Account*/
+.pass a{
+	color: #9CABC6;
+	text-decoration: none;
+}
+
+.pass a:hover{
+	text-decoration: underline;
+}
